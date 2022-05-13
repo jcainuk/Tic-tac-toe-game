@@ -5,3 +5,9 @@
 .form-control {
   margin: 0.5rem 0;
 }
+
+.form-control label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
