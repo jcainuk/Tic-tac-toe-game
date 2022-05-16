@@ -20,3 +20,8 @@
   font-size: 2.5rem;
   margin: 0.5rem 0;
 }
+
+#active-player-name {
+  font-weight: bold;
+  color: rgb(50, 5, 87);
+}
