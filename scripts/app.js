@@ -7,3 +7,5 @@ const cancelConfigBtnElement = document.getElementById('cancel-config-btn');
 
 editPlayer1BtnElement.addEventListener('click', openPlayerConfig);
 editPlayer2BtnElement.addEventListener('click', openPlayerConfig);
+
+cancelConfigBtnElement.addEventListener('click', closePlayerConfig);
