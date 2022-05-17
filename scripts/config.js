@@ -24,4 +24,6 @@ const savePlayerConfig = (event) => {
 
   const updatedPlayerDataElement = document.getElementById(`player-${editedPlayer}-data`);
   updatedPlayerDataElement.children[1].textContent = enteredPlayername;
+
+  players[editedPlayer - 1].name = enteredPlayername;
 };
