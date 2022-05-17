@@ -1,3 +1,6 @@
+// eslint-disable-next-line prefer-const
+let editedPlayer = 0;
+
 const playerConfigOverlayElement = document.getElementById('config-overlay');
 const backdropElement = document.getElementById('backdrop');
 const formElement = document.querySelector('form');
