@@ -1,6 +1,17 @@
 // eslint-disable-next-line prefer-const
 let editedPlayer = 0;
 
+const players = [
+  {
+    name: '',
+    symbol: 'X',
+  },
+  {
+    name: '',
+    symbol: 'O',
+  },
+];
+
 const playerConfigOverlayElement = document.getElementById('config-overlay');
 const backdropElement = document.getElementById('backdrop');
 const formElement = document.querySelector('form');
