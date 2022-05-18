@@ -29,3 +29,5 @@ cancelConfigBtnElement.addEventListener('click', closePlayerConfig);
 backdropElement.addEventListener('click', closePlayerConfig);
 
 formElement.addEventListener('submit', savePlayerConfig);
+
+startNewGameBtnElement.addEventListener('click', startNewGame);
