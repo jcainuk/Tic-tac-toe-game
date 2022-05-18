@@ -6,6 +6,7 @@ const startNewGame = () => {
   gameAreaElement.style.display = 'block';
 };
 
-const selectGameField = () => {
-
+const selectGameField = (event) => {
+  event.target.textContent = players[activePlayer].symbol;
+  event.target.classList.add('disabled');
 };
