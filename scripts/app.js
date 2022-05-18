@@ -1,5 +1,7 @@
 // eslint-disable-next-line prefer-const
 let editedPlayer = 0;
+// eslint-disable-next-line prefer-const
+let activePlayer = 0;
 
 const players = [
   {
