@@ -5,3 +5,7 @@ const startNewGame = () => {
   }
   gameAreaElement.style.display = 'block';
 };
+
+const selectGameField = () => {
+
+};
