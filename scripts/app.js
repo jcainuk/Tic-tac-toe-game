@@ -1,3 +1,9 @@
+const gameData = [
+  [0, 0, 0],
+  [0, 0, 0],
+  [0, 0, 0],
+];
+
 // eslint-disable-next-line prefer-const
 let editedPlayer = 0;
 // eslint-disable-next-line prefer-const
