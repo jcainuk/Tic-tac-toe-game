@@ -12,6 +12,7 @@ const switchPlayer = () => {
   } else {
     activePlayer = 0;
   }
+  activePlayerNameElement.textContent = players[activePlayer].name;
 };
 
 const selectGameField = (event) => {
