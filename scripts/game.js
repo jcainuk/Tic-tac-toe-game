@@ -21,6 +21,9 @@ const startNewGame = () => {
     alert('Please set custom player names for both players!');
     return;
   }
+
+  resetGameStatus();
+
   activePlayerNameElement.textContent = players[activePlayer].name;
   gameAreaElement.style.display = 'block';
 };
