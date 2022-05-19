@@ -30,7 +30,6 @@ const selectGameField = (event) => {
   selectedField.classList.add('disabled');
 
   gameData[selectedRow][selectedColumn] = activePlayer + 1;
-  console.log(gameData);
 
   const winnerId = checkForGameOver();
   console.log(winnerId);
