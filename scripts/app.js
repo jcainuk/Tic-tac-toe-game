@@ -4,12 +4,14 @@ const gameData = [
   [0, 0, 0],
 ];
 
-// eslint-disable-next-line prefer-const
+/* eslint-disable-next-line prefer-const */
 let editedPlayer = 0;
-// eslint-disable-next-line prefer-const
+/* eslint-disable-next-line prefer-const */
 let activePlayer = 0;
-// eslint-disable-next-line prefer-const
+/* eslint-disable-next-line prefer-const */
 let currentRound = 1;
+/* eslint-disable-next-line prefer-const */
+let gameIsOver = false;
 
 const players = [
   {
