@@ -8,6 +8,8 @@ const gameData = [
 let editedPlayer = 0;
 // eslint-disable-next-line prefer-const
 let activePlayer = 0;
+// eslint-disable-next-line prefer-const
+let currentRound = 1;
 
 const players = [
   {
