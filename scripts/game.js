@@ -73,6 +73,11 @@ const checkForGameOver = () => {
     return gameData[2][0];
   }
 
+  // Now winner but the game is over (a draw)
+  if (currentRound === 9) {
+    return -1;
+  }
+
   // Default value
   return 0;
 };
