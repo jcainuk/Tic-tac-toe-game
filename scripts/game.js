@@ -34,7 +34,7 @@ const selectGameField = (event) => {
   const winnerId = checkForGameOver();
   console.log(winnerId);
 
-  currentRound += 1;
+  currentRound++;
 
   switchPlayer();
 };
