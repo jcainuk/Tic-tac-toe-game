@@ -32,7 +32,9 @@ const selectGameField = (event) => {
   gameData[selectedRow][selectedColumn] = activePlayer + 1;
 
   const winnerId = checkForGameOver();
-  console.log(winnerId);
+  if (winnerId !== 0) {
+    endGame(winnerId);
+  }
 
   currentRound++;
 
